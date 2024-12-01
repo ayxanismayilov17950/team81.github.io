@@ -59,6 +59,10 @@
   #art-canvas {
     width: 400px;
   }
+  .canvas-container::after,
+  .canvas-container::before {
+    content: unset;
+  }
 }
 @media (max-width: 425px) {
   #art-canvas {
